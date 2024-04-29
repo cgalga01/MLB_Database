@@ -35,8 +35,6 @@ CREATE TABLE team (
 );
 
 DROP TABLE player CASCADE CONSTRAINTS;
-
-
 CREATE TABLE player (
     player_ID NUMBER,
     fname VARCHAR2(50),
