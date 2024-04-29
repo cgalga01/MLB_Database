@@ -6,4 +6,4 @@ Ryan Stettnisch and Christopher Galgano
 
 2. The data file is ran second, it creates records that are stored in the tables
 
-3. The queries can be ran third, they are example uses of thed data
+3. The queries can be ran third, they are example uses of the database
