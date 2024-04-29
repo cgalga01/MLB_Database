@@ -1,6 +1,3 @@
- alter session set ddl_lock_timeout = 1;
-
-
 CREATE TABLE coach (
   coach_id       NUMBER,
   fname          VARCHAR2(50),       
