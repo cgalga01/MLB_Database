@@ -1,3 +1,4 @@
+--DROP TABLE coach CASCADE CONSTRAINTS;
 CREATE TABLE coach (
   coach_id       NUMBER,
   fname          VARCHAR2(50),       
@@ -8,7 +9,7 @@ CREATE TABLE coach (
   primary key (coach_id)
 );
 
-DROP TABLE stadium CASCADE CONSTRAINTS;
+--DROP TABLE stadium CASCADE CONSTRAINTS;
 CREATE TABLE stadium (
   stadium_id   NUMBER,
   name         VARCHAR2(100),
@@ -18,7 +19,7 @@ CREATE TABLE stadium (
   primary key (stadium_id)
 );
 
-DROP TABLE team CASCADE CONSTRAINTS;
+--DROP TABLE team CASCADE CONSTRAINTS;
 CREATE TABLE team (
     name VARCHAR(100),
     city VARCHAR(100),
@@ -34,7 +35,7 @@ CREATE TABLE team (
     foreign key (stadium_ID) references stadium(stadium_id)
 );
 
-DROP TABLE player CASCADE CONSTRAINTS;
+--DROP TABLE player CASCADE CONSTRAINTS;
 CREATE TABLE player (
     player_ID NUMBER,
     fname VARCHAR2(50),
